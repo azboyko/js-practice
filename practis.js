@@ -87,11 +87,15 @@ function nthEven(n){
 }
 
 // What's the real floor     https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascriptfunction getRealFloor(n) {
-  if (n <= 0) return n;
-  if (n < 13) return n - 1;
-  return n - 2;
+function getRealFloor(n) {
+  if (n <= 0){
+    return n;
+  } if (n < 13) {
+    return n - 1;
+  } else {
+    return n - 2;
+  }
 }
-
 
 // Clock    https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/train/javascript
 function past(h, m, s) {
